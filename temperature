@@ -1,0 +1,11 @@
+t = int(input('Entre temperature'))
+if t < 0 and t >= -4 :
+    print("cold")
+elif t < -4:
+    print ("frezzing")
+elif t >=0 and t < 12 :
+    print ("cool")
+elif t >= 12 and t < 27 :
+    print ("warm")
+else:
+    print("hot")
